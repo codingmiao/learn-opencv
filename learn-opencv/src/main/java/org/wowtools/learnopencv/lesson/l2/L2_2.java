@@ -37,6 +37,8 @@ public class L2_2 {
 				break;
 			}
 		}
+		cvReleaseCapture(capture);
+		cvDestroyWindow(videoioName);
 	}
 
 }
