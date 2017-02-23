@@ -27,7 +27,7 @@ public class Commonality {
         return img;
     }
 
-    public static void showImg(String windowName,opencv_core.IplImage img){
+    public static void showImg(String windowName,opencv_core.CvArr img){
         cvNamedWindow(windowName, CV_WINDOW_AUTOSIZE);// CV_WINDOW_AUTOSIZE 根据图片大小自动设置窗口大
         cvShowImage(windowName, img);
     }
